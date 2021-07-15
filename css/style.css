@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+
+body{
+    height: 100%;
+    background: rgba(255, 239, 216, 0.678);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'Varela Round', sans-serif;
+}
+
+main{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1%;
+}
+
+input{
+    display: block;
+}
+
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    left: -15px;
+    width: 50vw;
+    min-height: 70vh;
+    background: rgb(221, 220, 220);
+    border-radius: 8px;
+    
+}
+
+.extra{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width: calc(75% / 2);
+    background: rgb(111, 214, 183);
+    min-height: 70vh;
+    border-radius: 8px;
+}
+.extra h1{
+    margin-bottom: 3vh;
+}
+
+.extra  span{
+    text-align: justify;
+    width: 60%;
+}
+
+input{
+    margin-top:5vh ;
+    height: 6vh;
+    width: 20vw;
+    border-radius: 8px;
+}
+
+input:focus{
+    border: none;
+    outline: 0;
+}
+
+
+input[type=password], input[type=email]{
+    padding-left: 1rem;
+}
+
+input[type=submit]{
+    background-color: rgb(139, 211, 189);
+}
+
+input[type=submit]:hover{
+    background-color: rgb(126, 187, 169);
+}
+
+.social-media{
+    height: 0.5rem;
+    margin-bottom: 20px;
+}
+
+.social-media > a > img{
+    height: 2rem;
+    margin: 0 0.5rem;
+    
+}
+
+h1{
+    font-size: 2rem;
+}
+.login > h1 {
+    position: absolute;
+    top: 5rem;
+}
+
+.or{
+    display: inline-block;
+    margin-top: 15px;
+}
+
+.social-media a img:hover{
+    height: 2.2rem;
+}
